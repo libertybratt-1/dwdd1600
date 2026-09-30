@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Liberty Bratt">
+    <meta name="description" content="Learn about the BTS members and their history">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="travel.css">
+    <title>BTS - The Evolution</title>
+</head>
+
+<body>
+    <!-- start the page head-->
+    <header>
+        <span>BTS - The Evolution</span>
+    </header>
+
+    <!-- start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">BTS - Home</a></li>
+      <li><a href="members.html">Members</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+      <li class="active"><a href="survey.html">Share Your Thoughts</a></li>
+      </ul>
+    </nav>
+
+    <!--page main-->
+    <main>
+        <h1>Share Your Thoughts</h1>
+        <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+                <legend>Fan Information</legend>
+                <label>Name*<input type="text" name="fname" required></label>
+                <label>Age*<input type="number" name="age" required></label>
+ <label>Email*<input type="email" name="email" required></label>
+ <label>Phone Number*<input type="tel" name="tel" required></label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Who Is Your Bias?</legend>
+    <label><input type="radio" name="rm" value="chosen">RM</label>
+        <label><input type="radio" name="jin" value="chosen">Jin</label>
+    <label><input type="radio" name="jhope" value="chosen">Jhope</label>
+    <label><input type="radio" name="suga" value="chosen">Suga</label>
+    <label><input type="radio" name="jimin" value="chosen">Jimin</label>
+    <label><input type="radio" name="v" value="chosen">V</label>
+    <label><input type="radio" name="jk" value="chosen">Jungkook</label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Favorite Eras</legend>
+                <label><input type="checkbox" name="schtril" value="method">School Trilogy</label>
+  <label><input type="checkbox" name="dandw" value="method">Dark & Wild</label>
+  <label><input type="checkbox" name="wings" value="method">Wings</label>
+  <label><input type="checkbox" name="loveyour" value="method">Love Yourself</label>
+  <label><input type="checkbox" name="mapof" value="method">Map of the Soul</label>
+  <label><input type="checkbox" name="be" value="method">BE</label>
+  <label><input type="checkbox" name="ari" value="method">Arirang</label>
+
+            </fieldset>
+ <fieldset>
+ <legend>What Country Are You From?</legend>
+ <select name="country">
+    <option value="none">Please Select</option>
+<option value="indo">Indonesia</option>
+<option value="phili">Philippines</option>
+<option value="US">United States</option>
+<option value="uk">United Kingdom</option>
+<option value="mx">Mexico</option>
+<option value="sk">South Korea</option>
+<option value="other">Other</option>
+</select>
+</fieldset>
+
+<label>Questions or Comments
+    <textarea name="comments"></textarea>
+</label>
+
+<input type="submit" value="Let Us Know Your Thoughts">
+</form>
+
+    </main>
+    <!-- start the page footer-->
+    <footer>
+        <p>&copy; 2026 &bull; Liberty Bratt &bull; DWDD</p>
+    </footer>
+</body>
+
+</html>
